@@ -1,0 +1,2 @@
+In this Task there is search bar we can search any city based on that i am calling open weather Api call using HTTP client module in angular with the help this 
+i am showing the information in html page.

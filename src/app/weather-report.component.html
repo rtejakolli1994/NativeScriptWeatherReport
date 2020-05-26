@@ -1,0 +1,17 @@
+<StackLayout>
+    <br>
+    <TextField hint="Enter City" [(ngModel)]="cityName"></TextField>
+    <Button (tap)="onChange()" text="Search City">SearchCity</Button>
+</StackLayout>
+
+<WrapLayout orientation="vertical" width="350" height="430" backgroundColor="lightgray" *ngIf="gridstatus==true">
+    <Label text="Weather Report of {{cityReport.name}}" class="data"></Label>
+    <Label text="Today's Temparature is {{cityReport.main.temp - 273.15 | number}} celsius" class="degree"></Label>
+    <Label text="Humidity is {{cityReport.main.humidity}}" class="humidity"></Label>
+    <Label text="Map Latitude and Longitude are {{cityReport.coord.lat}} {{cityReport.coord.lon}}" class="location"></Label>
+    <Label text="Discription of Climate: {{cityReport.weather[0].description}}" class="info"></Label>
+</WrapLayout>
+
+<StackLayout *ngIf="gridstatus==false">
+    <Label [text]="errInfo"></Label>
+</StackLayout>

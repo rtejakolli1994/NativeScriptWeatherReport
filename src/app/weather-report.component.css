@@ -1,0 +1,46 @@
+.data{
+    background-image: url('https://climate-data.org/ezoimgfmt/maps.climate-data.org/0/0/0.png?ezimgfmt=rs:256x256/rscb9');
+    width:1000px;
+    height:200px;
+    text-align: justify;
+    padding:60px;
+    font-size:15px;
+  }
+
+  .degree{
+    background-image: url('https://mw1.google.com/ges/dd/images/ECMWF_ERA5_DAILY_sample.png');
+    width:1000px;
+    height:250px;
+    text-align: justify;
+    padding:60px;
+    font-size:15px;
+  }
+
+  .humidity{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/00/Ice_Clouds_in_Martian_Arctic.gif');
+    width:1000px;
+    height:250px;
+    text-align: justify;
+    padding:60px;
+    font-size:15px;
+    color:white;
+  }
+
+  .location{
+    background-image: url('https://i.pinimg.com/originals/39/54/be/3954bede3a19787769328a0eda220489.png');
+    width:1000px;
+    height:250px;
+    text-align: justify;
+    padding:60px;
+    font-size:15px;
+  }
+
+  .info {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/iconsland-weather/PNG/256x256/Night_Rain.png');
+    width:1000px;
+    height:250px;
+    text-align: justify;
+    padding:60px;
+    font-size:15px;
+    color:red;
+  }
